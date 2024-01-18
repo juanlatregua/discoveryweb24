@@ -11,29 +11,46 @@ body, html {
     color: white;
     padding: 50px;
     text-align: center;
-}
-
-.parallax {
+.uno {
+    background-image: url(https://cdn.pixabay.com/photo/2024/01/07/14/12/man-8493244_1280.jpg);
+    min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 500;
+    
+
+    
 }
 
-#home {
-    background-image: url("ihttps://cdn.pixabay.com/photo/2023/09/10/11/44/tulip-8244705_1280.jpg");
-    min-height: 100%;
-}
-
-#about {
-    background-image: url("https://cdn.pixabay.com/photo/2023/12/19/12/41/spider-8457644_1280.jpg");
-    min-height: 100%;
-}
-
-.text {
-    position: absolute;
-    top: 50%;
-    width: 100%;
+.dos {
+    background-color: black;
+    min-height: 300px;
     text-align: center;
-    color: white;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.tres {
+    background-image: url(https://cdn.pixabay.com/photo/2023/12/17/09/47/door-8453898_1280.jpg);
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 500;
 }
