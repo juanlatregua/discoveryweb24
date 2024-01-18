@@ -5,36 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tab</title>
-    <style>
-        body {
-            display: grid;
-            place-items: strech;
-            justify-self: center;
-            height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
-        .table {
-            width: 100%; /* Cambiado a 100% del ancho de la ventana del navegador */
-            height: 100%; /* Cambiado a 100% de la altura de la ventana del navegador */
-            border-collapse: collapse;
-        }
-        .left {
-            background-color: salmon;
-            border: solid;
-            width: 50%;
-        }
-        .right {
-            background-color: aqua;
-            border: solid;
-            width: 50%;
-        }
-    </style>
+    <link rel="stylesheet" href="responsive.css">
+</head>
 <body>
-    <table class="table">
+    <table id="table">
         <tr>
-<td class="left" scope="col">Casilla izquierda</td>
-<td class="right" scope="col">Casilla derecha</td>
+            <td id="left">Casilla izquierda</td>
+            <td id="right">Casilla derecha</td>
         </tr>
     </table>
 </body>
