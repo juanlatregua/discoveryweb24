@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+}
+
+.block {
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home {
+    background-image: url("ihttps://cdn.pixabay.com/photo/2023/09/10/11/44/tulip-8244705_1280.jpg");
+    min-height: 100%;
+}
+
+#about {
+    background-image: url("https://cdn.pixabay.com/photo/2023/12/19/12/41/spider-8457644_1280.jpg");
+    min-height: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
