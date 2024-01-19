@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balloon</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        #div {
+            background-color: red;
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="div" onclick="change_size()" onmouseleave="minus_size()"> </div>
+    <script>
+        let diametro = 200;
+        let i = 0;
+        let p = document.getElementById("div");
+        let colorlist = ["red", "green", "blue"];
+        function change_size() {
+            i++;
+            diametro += 10;
+            
+            if(diametro > 420){
+                diametro = 200;
+            }
+            
+            p.style.width = diametro + "px";
+            p.style.height = diametro + "px";
+            let color = colorlist[i%3];
+            p.style.background = color;
+        }
+        
+        function minus_size(){
+            i--;
+            if(i < 1)
+            i = 3;
+            diametro -= 5;
+            if(diametro < 200){
+                diametro = 200;
+            }
+            p.style.width = diametro + "px";
+            p.style.height = diametro + "px";
+            let color = colorlist[i%3];
+            console.log(i%3);
+            p.style.background = color
+        }
+    </script>
+</body>
+</html>
