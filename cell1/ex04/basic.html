@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-Basic or home-</title>
+    <style>
+        body {
+            background-color: pink;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            min-height: 100vh;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .center {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .center div {
+            text-align: center;
+            width: 50%;
+        }
+        .center img {
+            width: 200px;
+            height: 400px;
+        }
+        .center a {
+            display: block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid black;
+            width: 100%;
+        }
+        .copyright {
+            text-align: right; /* Modificado */
+            font-family: 'Courier New', Courier, monospace;
+            font-style: italic;
+            padding: 10px;
+            width: 100%;
+        }   
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="center">
+            <div>
+                <img src="https://images.pexels.com/photos/19560854/pexels-photo-19560854/free-photo-of-walls-of-buildings-in-town.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load">
+                <a href="https://www.visitlisboa.com/fr">Visit Lisbon</a>
+            </div>
+            <div>
+                <img src="https://images.pexels.com/photos/18132119/pexels-photo-18132119/free-photo-of-panorama-from-skypoint-observation-deck-gold-coast-queensland-australia.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load">
+                <a href="https://www.visittheusa.mx/destination/miami">Visit Miami</a>
+            </div>
+        </div>
+        <hr>
+        <div class="copyright">© jsilva-m 2024</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta  http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piscineweb</title>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .center img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">Piscine Web</h1>
+    <div class="center">
+        <a href="https://www.youtube.com/watch?v=INscMGmhmX4">
+            <img src="https://unsplash.com/photos/an-aerial-view-of-a-desert-with-rocks-and-sand-Iy59i0M7oP4" class="center" width="200" height="400">
+        </a>
+        <img src="https://unsplash.com/photos/a-planetary-object-in-the-sky-with-stars-APO2xtUIOXY" width="200" height="400">
+    </div>
+</body>
+</html>
